@@ -15,24 +15,24 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25902975'))
 API_HASH = environ.get('API_HASH', 'bf9ebb30c8c6c4745031de8452d06025')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6352103721:AAExBOzBqDu7cqqfiBVjS2vpA32rZd_DX9M")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6725564269:AAHvA-MWzpN58GUQjc8y8GKLz8AWgRSME9g")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/17b7d82fd5a1e40ff88b5.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/f01f20ffbf67bc5442c6b.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/451f038b4e7c2ddd10dc0.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/10f9dac6eab3247e35831.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6643691556').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762418266').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001863861150').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6762418266').split()]
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
@@ -51,9 +51,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'af77f68713ff5ec1e9e7a2b843cc29e85ceb855a')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '817a132726abc1b758ce4bd6d3f983ae2e2d9aa9')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
@@ -61,11 +61,11 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Unknown_Cinema')
 SPRT_GRP = environ.get('SPRT_GRP', 'https://t.me/Unknown_Cinema')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Unknown_Cinema')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+CRxXz6AAWTQ4ZWFl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownll')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+CRxXz6AAWTQ4ZWFl')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Howtodownll')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961583707'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084334219'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
