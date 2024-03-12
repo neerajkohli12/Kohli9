@@ -210,7 +210,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b><code><a href="https://t.me/Unknown_Cinema">{file_name}</a></code>
 
-@Unknown_Cinema
+@NRMOVIES_OFFICIAL
 </b>"""
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
