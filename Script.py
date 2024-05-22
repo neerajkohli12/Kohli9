@@ -208,9 +208,9 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b><code><a href="https://t.me/Unknown_Cinema">{file_name}</a></code>
+<b><code><a href="https://t.me/@Best_Movie_Channel7">{file_name}</a></code>
 
-@NRMOVIES_OFFICIAL
+@Best_Movie_Channel7
 </b>"""
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
