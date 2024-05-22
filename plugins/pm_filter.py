@@ -1443,7 +1443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                         
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Kkmovi_bot"), 
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/officialNeerajkohli"), 
                     InlineKeyboardButton('Sᴛᴀᴛs', callback_data='stats')
 
                   ]]
