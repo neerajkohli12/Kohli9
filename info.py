@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25902975'))
-API_HASH = environ.get('API_HASH', 'bf9ebb30c8c6c4745031de8452d06025')
+API_ID = int(environ.get('API_ID', '24547584'))
+API_HASH = environ.get('API_HASH', 'e01c9476a977a6c3b9f93bbbeb2efe68')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7156207668:AAGbFZCOBnIEht635Nu4RCR_QhvXbK3dGy0")
 
 # Bot settings
@@ -28,8 +28,8 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/5e2d4418525832bc9a
 VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/10f9dac6eab3247e35831.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6762418266').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001953779656').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1265774314').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002048213086').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '6762418266 6672926571').split()]
@@ -65,7 +65,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Howtodownll')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Howtodownll')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084334219'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002092706854'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
