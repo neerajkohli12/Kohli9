@@ -251,11 +251,10 @@ async def start(client, message):
                 ]
             )
         )
-       await asyncio.sleep(300)
-       await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await asyncio.sleep(300)
+        await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
         return
-        
-    
+            
     elif data.startswith("short"):
         user = message.from_user.id
         chat_id = temp.SHORT.get(user)
