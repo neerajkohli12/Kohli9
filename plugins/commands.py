@@ -271,8 +271,8 @@ async def start(client, message):
                 ]
             )
         )
-       await asyncio.sleep(1200)
-       await k.edit("<b>Your message is successfully deleted!!!</b>")
+        await asyncio.sleep(1200)
+        await k.edit("<b>ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ ɪꜱ ᴅᴇʟᴇᴛᴇᴅ !\nᴋɪɴᴅʟʏ ꜱᴇᴀʀᴄʜ ᴀɢᴀɪɴ.</b>")
         return
         
     elif data.startswith("all"):
