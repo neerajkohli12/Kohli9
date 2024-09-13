@@ -210,7 +210,7 @@ Nᴀᴍᴇ - {}"""
     CAPTION = """
 <b><code><a href="https://t.me/@Best_Movie_Channel7">{file_name}</a></code>
 
-@Best_Movie_Channel7
+https://t.me/Nrmovie7
 </b>"""
     
     MODS_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
