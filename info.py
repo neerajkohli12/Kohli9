@@ -49,10 +49,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "nrmoviebot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True)
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdiskshortner.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'cf2e491da2422e76deb6ee777ec31a3dc96f3d61')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+VERIFY = bool(environ.get('VERIFY', False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c15c5a31772e33541677a3b4009bc8311f859289')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
