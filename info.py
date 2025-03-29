@@ -49,7 +49,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "nrmoviebot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c15c5a31772e33541677a3b4009bc8311f859289')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
